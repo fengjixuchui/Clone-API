@@ -1,5 +1,5 @@
 //	The goal of this project is to bypass ring 3 AV hooks
-//	What it does is that it simply copies the specified API to the %TEMP% folder
+//	What it does is that it copies the specified API to the %TEMP% folder and rename the exported name
 
 #include <Windows.h>
 #include <time.h>
